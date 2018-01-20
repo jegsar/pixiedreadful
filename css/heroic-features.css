@@ -1,0 +1,51 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template-overviews/heroic-features)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+@font-face {
+  font-family: 'gushing';
+  src: url('../fonts/gushing.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'gushingsc';
+  src: url('../fonts/gushingsc.ttf') format('truetype');
+}
+
+body {
+  /* color: rgb(202, 74, 150); */
+
+  /* padding-top: 54px; TODO Undo when adding title back */
+  /* background-color: rgb(150, 72, 255); */
+  background-color: #600000;
+  /* background-image: url("http://thewallpaper.co/wp-content/uploads/2017/10/art-horror-fantasy-artwork-halloweenfree-images-creepy-display-widescreendark-gothic-vector-ghost-spooky-windows-desktop-images.jpg"); */
+  font-family: 'Merriweather', serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    /* padding-top: 56px;  TODO Undo when adding title back */
+  }
+}
+
+.card {
+  background-color: black;
+  height: 100%;
+  color: rgb(202, 74, 150);
+}
+
+.jumbotron{
+  background-color: black;
+  color: yellow;
+}
+
+.card-title, .display-3 {
+  font-family: 'gushingsc', serif;
+}
+
+.btn-primary{
+  background-color: #0d7488;
+  /*color: #6b2b50;*/
+}
